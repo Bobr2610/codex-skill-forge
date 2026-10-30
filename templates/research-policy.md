@@ -1,0 +1,5 @@
+# Evidence-Based Technical Research
+
+Do not decide from model memory when a technical choice depends on current APIs, framework practices, versions, compatibility, security, or tool behavior. Inspect the repository and its pinned versions first. Search current official documentation and primary sources; consult reputable engineering practice sources when appropriate. Compare at least one viable alternative for material architecture or infrastructure choices.
+
+Use `.private/<member-id>/references/` in the generated skill repository for concise member-specific scratch records. Record topic, source title, URL, access date, brief paraphrase/finding, applicability/version, and the Jira task link. Do not copy whole pages, books, standards, or manuals. Move shared conclusions and citations into tracked canonical decision or architecture records in the generated skill repository; register disposable scratch files in its cleanup manifest and run cleanup dry-run before deletion. A source link is not proof that the recommendation fits: record constraints and tradeoffs. Do not write scratch notes into product-source folders or another member's private folder.

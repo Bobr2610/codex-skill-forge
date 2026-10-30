@@ -1,0 +1,18 @@
+{
+  "artifacts": [
+    {
+      "path": "records/review-temp/review-notes.md",
+      "creator_type": "agent",
+      "lifecycle": "review_complete",
+      "purpose": "temporary review artifact",
+      "review_id": "PROJ-123"
+    },
+    {
+      "path": "records/review-temp/research-notes.json",
+      "creator_type": "agent",
+      "lifecycle": "review_complete",
+      "purpose": "temporary cited research scratchpad after canonicalization",
+      "review_id": "PROJ-123"
+    }
+  ]
+}

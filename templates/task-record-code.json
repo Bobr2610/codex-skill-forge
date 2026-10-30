@@ -1,0 +1,16 @@
+{
+  "kind": "code",
+  "issue": "PROJ-123",
+  "owner": "",
+  "acceptance_checks": [],
+  "test_file": "",
+  "test_command": "",
+  "test_written_evidence": "",
+  "red_evidence": "",
+  "green_evidence": "",
+  "refactor_completed": false,
+  "post_refactor_evidence": "",
+  "implementation_started": false,
+  "changed_paths": [],
+  "evidence_links": []
+}
