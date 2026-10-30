@@ -1,6 +1,6 @@
 interface:
-  display_name: "Codex Project Ops"
+  display_name: "Codex Skill Forge"
   short_description: "Inspect a project and generate its Codex delivery skill"
-  default_prompt: "Use $codex-project-ops to inspect this project read-only and generate a separate Codex skill repository for its team."
+  default_prompt: "Use $codex-skill-forge to inspect this project read-only and generate a separate Codex skill repository for its team."
 policy:
   allow_implicit_invocation: true

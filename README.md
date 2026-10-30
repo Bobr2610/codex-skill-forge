@@ -1,9 +1,9 @@
-# Codex Project Ops — Automated MVP Delivery Skill
+# Codex Skill Forge — Project-Specific Codex Skill Generator
 
 **A read-only project inspector and Codex skill generator. It creates a separate, project-tailored skill and local Git repository; it does not manage or modify the product project.**
 
 ## What it does
-Codex Project Ops is the immutable generic baseline. It inspects product project metadata read-only, then generates a sibling Codex skill with project-specific delivery instructions, reusable templates, and a personal ignored reference cache. The generated skill guides a separate team through project planning and delivery.
+Codex Skill Forge is the immutable generic baseline. It inspects product project metadata read-only, then generates a sibling Codex skill with project-specific delivery instructions, reusable templates, and a personal ignored reference cache. The generated skill guides a separate team through project planning and delivery.
 
 The package contains one discoverable generator skill in `SKILL.md` and a standard-library Python CLI. The CLI only inspects the source repository and creates/validates a distinct skill repository. It does not write into product repositories or create Jira issues, product branches, or releases.
 
@@ -19,10 +19,10 @@ Requires Python 3.11 or newer.
 
 ```powershell
 python -m pip install -e .
-codex-project-ops inspect --project C:\path\to\product
-codex-project-ops generate-skill --project C:\path\to\product --member-id alex --approval "GENERATE product-codex-skill"
-codex-project-ops validate-skill --skill C:\path\to\skills\product-codex-skill --member-id alex
-codex-project-ops add-member --skill C:\path\to\skills\product-codex-skill --member-id sam
+codex-skill-forge inspect --project C:\path\to\product
+codex-skill-forge generate-skill --project C:\path\to\product --member-id alex --approval "GENERATE product-codex-skill"
+codex-skill-forge validate-skill --skill C:\path\to\skills\product-codex-skill --member-id alex
+codex-skill-forge add-member --skill C:\path\to\skills\product-codex-skill --member-id sam
 ```
 
 `generate-skill` inspects the product repository read-only, previews the generated file list, and writes only after the exact `GENERATE <folder-name>` approval token. It refuses nested or existing output paths. Existing product `.projectops/` records are not migrated or touched. The first member cache is created in the ignored folder before the generated skill's initial commit; additional member caches require explicit approval with `ADD MEMBER <id>`.
@@ -40,12 +40,12 @@ Run the development checks:
 ```powershell
 python -m pip install -e ".[dev]"
 python -m pytest
-python -m project_ops.cli --help
+python -m codex_skill_forge.cli --help
 ```
 
 ## Package structure
 - `SKILL.md`: immutable generator instructions and safety boundaries.
-- `src/project_ops/`: read-only inspector and skill generator CLI.
+- `src/codex_skill_forge/`: read-only inspector and skill generator CLI.
 - `templates/`: templates copied into generated project skills.
 - `tests/`: deterministic CLI-core tests.
 - `SECURITY.md`, `CHANGELOG.md`, `LICENSE`: security policy, history, and owner-finalized proprietary license placeholder.

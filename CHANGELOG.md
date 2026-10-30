@@ -2,6 +2,11 @@
 
 All notable changes to this package are documented here.
 
+## 1.2.0 - 2026-10-30
+- Renamed the Codex skill and Python distribution to Codex Skill Forge.
+- Renamed the Python package and console command to `codex_skill_forge` / `codex-skill-forge`.
+- Retained previous package history and behavior.
+
 ## 1.1.0 - 2026-10-30
 - Corrected generated skill records and immutable version files to live in the generated skill repository, not in product source or template-only folders.
 - Added approval-gated per-member private reference cache provisioning.

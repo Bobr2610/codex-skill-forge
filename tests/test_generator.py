@@ -4,8 +4,8 @@ from pathlib import Path
 
 import pytest
 
-from project_ops.generator import add_member_cache, generate_skill, generate_skill_draft, validate_generated_skill
-from project_ops.inspection import OpsError, inspect
+from codex_skill_forge.generator import add_member_cache, generate_skill, generate_skill_draft, validate_generated_skill
+from codex_skill_forge.inspection import OpsError, inspect
 
 
 def run_git(path: Path, *args: str) -> str:

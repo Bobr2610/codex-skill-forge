@@ -11,8 +11,8 @@ from .inspection import OpsError, inspect, resolve_root
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="codex-project-ops", description="Generate project-specific Codex skills from read-only project inspection")
-    parser.add_argument("--version", action="version", version="codex-project-ops 1.1.0")
+    parser = argparse.ArgumentParser(prog="codex-skill-forge", description="Generate project-specific Codex skills from read-only project inspection")
+    parser.add_argument("--version", action="version", version="codex-skill-forge 1.2.0")
     sub = parser.add_subparsers(dest="command", required=True)
     inspect_parser = sub.add_parser("inspect", help="Inspect project stack and existing instructions without changing it")
     inspect_parser.add_argument("--project", required=True)
