@@ -2,6 +2,11 @@
 
 All notable changes to this package are documented here.
 
+## 1.3.0 - 2026-11-17
+- Make GitHub Issues the only task tracker in generated project skills and surface that rule at the top of their instructions.
+- Add reusable issue discovery and ownership guidance, plus user-visible coordinator and implementation chat workflow.
+- Align generated record templates and metadata with GitHub Issues; preserve older release notes as historical records.
+
 ## 1.2.0 - 2026-10-30
 - Renamed the Codex skill and Python distribution to Codex Skill Forge.
 - Renamed the Python package and console command to `codex_skill_forge` / `codex-skill-forge`.

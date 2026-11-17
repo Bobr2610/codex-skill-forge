@@ -35,7 +35,7 @@ project/
 Describe allowed imports, API boundaries, validation, error propagation, transactions, authorization, logging, and external-system boundaries. State forbidden dependency directions.
 
 ## Data and security
-Identify data classifications, sources of truth, retention, migrations, authentication/authorization, secret handling, and threat assumptions. Link relevant Jira decisions.
+Identify data classifications, sources of truth, retention, migrations, authentication/authorization, secret handling, and threat assumptions. Link relevant GitHub Issues decisions.
 
 ## Test architecture
 Unit/domain, application, integration, contract, UI/accessibility, and end-to-end layers; state which checks gate merge and release.

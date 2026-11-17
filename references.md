@@ -9,7 +9,7 @@ Primary references for the skill's operational guidance. Verify current versions
 ## Project governance and delivery
 - UK Government Project Delivery Functional Standard (GovS 002): https://www.gov.uk/government/publications/project-delivery-functional-standard
 - NASA Systems Engineering Handbook: https://www.nasa.gov/reference/systems-engineering-handbook/
-- Jira Cloud REST API: https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/
+- GitHub CLI issue commands: https://cli.github.com/manual/gh_issue
 
 ## Languages and packaging
 - Python tutorial: https://docs.python.org/3/tutorial/

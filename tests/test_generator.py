@@ -79,6 +79,15 @@ def test_skill_has_required_delivery_rules_and_member_specific_private_dir(tmp_p
     assert ".private/<member-id>/references/" in skill
     assert ".private/member-2/references/README.md" in draft["files"]
     assert ".private/\n" in draft["files"][".gitignore"]
+    assert draft["files"]["SKILL.md"].split("---\n", 2)[-1].lstrip().startswith(
+        "# Task tracking: GitHub Issues"
+    )
+    assert "sole task tracker" in draft["files"]["SKILL.md"]
+    assert "coordinator chat" in draft["files"]["SKILL.md"]
+    assert "subagents" in draft["files"]["SKILL.md"]
+    assert "Jira" not in draft["files"]["SKILL.md"]
+    assert "references/github-issues.md" in draft["files"]
+    assert "github_issues_repository" in draft["files"]["references/project-profile.json"]
 
 
 def test_add_member_requires_approval_and_ignores_new_member_folder(tmp_path):
