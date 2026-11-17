@@ -6,10 +6,10 @@
 - Assumptions, constraints, success evidence:
 
 ## Roles and ownership
-- See roles.json and assigned Jira issues.
+- See roles.json and assigned GitHub Issues.
 
 ## Work breakdown
-| Jira | Deliverable/task | Acceptance criteria | Role owner | Estimate/unit | Dependencies | Planned window |
+| GitHub Issue | Deliverable/task | Acceptance criteria | Role owner | Estimate/unit | Dependencies | Planned window |
 |---|---|---|---|---|---|---|
 
 ## Waterfall gates

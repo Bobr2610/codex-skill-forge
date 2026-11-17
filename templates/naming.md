@@ -1,6 +1,6 @@
 # Naming Contract
 
-Status: draft until approved. Align names across code, API, data, events, Jira, and documentation. Follow selected language/framework official style; do not impose one casing across languages.
+Status: draft until approved. Align names across code, API, data, events, GitHub Issues, and documentation. Follow selected language/framework official style; do not impose one casing across languages.
 
 ## Domain glossary
 | Canonical term | Definition | Avoided synonyms | Code/API/data names | Owner |

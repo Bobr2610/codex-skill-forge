@@ -12,7 +12,7 @@ Status: proposed; approve before generating or changing project files.
 Paste the tailored directory and key-file map. For greenfield MVPs, prefer a feature-first modular monolith with presentation, application, domain, and infrastructure boundaries, adapted to the framework.
 
 ## Files to create and ownership
-| File/path | Purpose | Jira issue | Owner | Depends on | Existing conflict check |
+| File/path | Purpose | GitHub Issue | Owner | Depends on | Existing conflict check |
 |---|---|---|---|---|---|
 | | | | | | |
 

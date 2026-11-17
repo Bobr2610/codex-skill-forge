@@ -5,11 +5,11 @@
 ## What it does
 Codex Skill Forge is the immutable generic baseline. It inspects product project metadata read-only, then generates a sibling Codex skill with project-specific delivery instructions, reusable templates, and a personal ignored reference cache. The generated skill guides a separate team through project planning and delivery.
 
-The package contains one discoverable generator skill in `SKILL.md` and a standard-library Python CLI. The CLI only inspects the source repository and creates/validates a distinct skill repository. It does not write into product repositories or create Jira issues, product branches, or releases.
+The package contains one discoverable generator skill in `SKILL.md` and a standard-library Python CLI. The CLI only inspects the source repository and creates/validates a distinct skill repository. It does not write into product repositories or create issues, product branches, or releases.
 
 ## Capabilities
 - Read-only inspection of stack manifests and existing project instructions.
-- Generated Codex skill with project context, Waterfall/Jira, non-overlapping chat, architecture/naming, TDD, research, Docker/tooling, UI, release, and cleanup guidance.
+- Generated Codex skill with GitHub Issues first, coordinator and implementation chat guidance, project context, architecture/naming, TDD, research, Docker/tooling, UI, release, and cleanup guidance.
 - Separate local Git repositories for the immutable generator baseline and each generated project skill; no remotes configured by default.
 - Git-ignored `.private/<member-id>/references/` cache for task-specific notes, with shared decisions kept tracked.
 - Generated skill validation for Codex structure, local Git, and private-cache ignore rules.

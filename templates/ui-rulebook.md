@@ -12,7 +12,7 @@
 - Iconography/assets:
 
 ## Components and states
-| Component | Variants | Interaction states | Keyboard/accessibility | Responsive behavior | Penpot/Jira |
+| Component | Variants | Interaction states | Keyboard/accessibility | Responsive behavior | Penpot/GitHub Issues |
 |---|---|---|---|---|---|
 
 ## Accessibility and exceptions
@@ -21,5 +21,5 @@
 - Exceptions, risk, remediation owner/date:
 
 ## Change history
-| Version/date | Change | Rationale | Jira | Approver |
+| Version/date | Change | Rationale | GitHub Issue | Approver |
 |---|---|---|---|---|
